@@ -1,0 +1,182 @@
+
+/* FONTS used: Patua One (cursive), Sacramento (cursive), Sansita (san serif) */
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Sacramento&family=Sansita&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: #f0e2d3;
+}
+
+.header, .summary
+{
+    width: 100%
+}
+
+.header
+{
+    text-align: right;
+    font-family: 'Patua One', cursive;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    background-color: #F3F0ED;
+}
+
+.summary
+{
+    margin-top: 40px;
+}
+
+.summary, .contact
+{
+    height: 300px;
+}
+
+.about
+{
+    height: 450px;
+    font-family: 'Patua One', cursive;
+    padding-top: 30px;
+    padding-left: 110px;
+    padding-bottom: 30px;
+    color: #4D0011;
+}
+
+.summary, .portfolio
+{
+    background-color: #9E2D0B;
+}
+
+.portfolio
+{
+    font-family: 'Patua One', cursive;
+    color: #F3F0ED;
+    height: 800px;
+}
+
+.footer
+{
+    background-color: #F3977A;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: larger;
+    color: ivory;
+}
+
+div.headername
+{
+    text-align: left;
+    font-family: 'Sacramento', cursive;
+    color: #9E2D0B;
+    font-size: larger;
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+    width: 50%;
+}
+
+div.navibar
+{
+    width: 45%;
+    float: left;
+}
+
+a.nav
+{
+    display: inline-block;
+    color: #9E2D0B;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a.nav:hover
+{
+    background-color: #9E2D0B;
+    color: white;
+}
+
+img.id
+{
+    height: 190px;
+    margin-left: 150px;
+    margin-top: 58px;
+    margin-bottom: 52.5px;
+}
+
+p.name01
+{
+    color: white;
+    font-family: 'Patua One', cursive;
+    font-size: xx-large;
+    margin-top: 45px;
+    margin-left: 130px;
+    text-align: right;
+}
+
+p.text01
+{
+    color: whitesmoke;
+    font-family: 'Sansita', sans-serif;
+    font-size: medium;
+    margin-left: 170px;
+}
+
+
+div.sum01, div.sum02
+{
+    width: 50%;
+    float: left;
+}
+
+div.school, div.work
+{
+    width: 50%;
+    float: left;
+}
+
+img.icon
+{
+    height: 20px;
+}
+
+p.proj
+{
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: larger;
+}
+
+div.projcar
+{
+    position: relative;
+}
+
+img.projs
+{
+    height: 500px;
+    align-items: center;
+}
+
+/*MEDIA RESPONSIVENESS*/
+@media all and (min-width: 300px) and (max-width: 1000px)
+{
+    
+    .header
+    {
+        width: 100%;
+        font-size: smaller;
+    }
+
+    .id
+    {
+        height: 50px;
+    }
+}

@@ -1,0 +1,5 @@
+#F3F0ED - cream (BACKGROUND)
+#FFFFFF - white
+#9E2D0B - red
+#F3977A - orange/peach
+#4D0011 - burgundy
