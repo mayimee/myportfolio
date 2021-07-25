@@ -49,6 +49,17 @@ body
     color: #4D0011;
 }
 
+.contact
+{
+    height: 200px;
+    font-family: 'Patua One', cursive;
+    padding-top: 30px;
+    padding-left: 110px;
+    padding-bottom: 30px;
+    color: #4D0011;
+    text-align: center;
+}
+
 .summary, .portfolio
 {
     background-color: #9E2D0B;
@@ -163,6 +174,12 @@ img.projs
 {
     height: 500px;
     align-items: center;
+}
+
+p.contactdet
+{
+    font-family: 'Sacramento', cursive;
+    font-size: xx-large;
 }
 
 /*MEDIA RESPONSIVENESS*/
