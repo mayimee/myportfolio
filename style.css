@@ -182,6 +182,12 @@ p.contactdet
     font-size: xx-large;
 }
 
+p.experience
+{
+    font-family: 'Sacramento', cursive;
+    font-size: x-large;
+}
+
 /*MEDIA RESPONSIVENESS*/
 @media all and (min-width: 300px) and (max-width: 1000px)
 {
