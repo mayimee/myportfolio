@@ -41,9 +41,9 @@ body
 
 .about
 {
-    height: 450px;
+    height: 420px;
     font-family: 'Patua One', cursive;
-    padding-top: 30px;
+    padding-top: 40px;
     padding-left: 110px;
     padding-bottom: 30px;
     color: #4D0011;
@@ -51,10 +51,9 @@ body
 
 .contact
 {
-    height: 200px;
+    height: 300px;
     font-family: 'Patua One', cursive;
-    padding-top: 30px;
-    padding-left: 110px;
+    padding-top: 60px;
     padding-bottom: 30px;
     color: #4D0011;
     text-align: center;
@@ -70,7 +69,10 @@ body
     font-family: 'Patua One', cursive;
     color: #F3F0ED;
     height: 800px;
-    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer
@@ -152,6 +154,8 @@ div.school, div.work
 {
     width: 50%;
     float: left;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 img.icon
@@ -168,13 +172,13 @@ p.proj
 
 div.projcar
 {
-    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 img.projs
 {
     width: 250px;
-    align-items: center;
 }
 
 p.contactdet
