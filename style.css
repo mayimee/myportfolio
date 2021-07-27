@@ -81,8 +81,7 @@ body
     padding: 10px;
     text-align: center;
     font-family: 'Sacramento', cursive;
-    font-size: larger;
-    color: ivory;
+    font-size: larger;  
 }
 
 div.headername
@@ -114,6 +113,12 @@ a.nav
 a.nav:hover
 {
     background-color: #9E2D0B;
+    color: ivory;
+}
+
+a.myname
+{
+    text-decoration: none;
     color: white;
 }
 
