@@ -69,8 +69,9 @@ body
     font-family: 'Patua One', cursive;
     color: #F3F0ED;
     height: 800px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 60px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer
@@ -146,6 +147,12 @@ p.text01
     margin-left: 170px;
 }
 
+p.text02
+{
+    color: whitesmoke;
+    font-family: 'Sansita', sans-serif;
+    font-size: larger;
+}
 
 div.sum01, div.sum02
 {
@@ -173,12 +180,6 @@ p.proj
     font-size: larger;
 }
 
-div.projcar
-{
-    margin-left: auto;
-    margin-right: auto;
-}
-
 img.projs
 {
     width: 250px;
@@ -194,6 +195,20 @@ p.experience
 {
     font-family: 'Sacramento', cursive;
     font-size: x-large;
+}
+
+div.border
+{
+    border: 3px dashed black;
+    padding: 20px;
+    position: relative;
+    float:left;
+}
+
+div.text03
+{
+    height: 60px;
+    float: none;
 }
 
 /*MEDIA RESPONSIVENESS*/
