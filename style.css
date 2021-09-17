@@ -33,16 +33,17 @@ body
 .summary
 {
     margin-top: 40px;
+    height: 420px;
 }
 
-.summary, .contact
+.contact
 {
     height: 300px;
 }
 
 .about
 {
-    height: 420px;
+    height: 600px;
     font-family: 'Patua One', cursive;
     padding-top: 40px;
     padding-left: 110px;
@@ -69,7 +70,7 @@ body
 {
     font-family: 'Patua One', cursive;
     color: #F3F0ED;
-    height: 800px;
+    height: 850px;
     padding: 60px;
     margin-left: auto;
     margin-right: auto;
@@ -179,6 +180,12 @@ p.proj
     padding-left: 50px;
     padding-top: 10px;
     font-size: larger;
+}
+
+.projtitle
+{
+    font-family: 'Sacramento', cursive;
+    font-size: 60px;
 }
 
 img.projs
